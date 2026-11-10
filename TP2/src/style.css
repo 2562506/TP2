@@ -1,1 +1,4 @@
 @import url("./styles/bases/global.css");
+
+@import url("./styles/layouts/footer.css");
+@import url("./styles/layouts/header.css");
