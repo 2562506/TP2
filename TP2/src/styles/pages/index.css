@@ -144,3 +144,50 @@
 #caroussel{
     width: 65%;
 }
+
+#enviePotion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 2rem
+}
+
+#enviePotion hr{
+    margin: 0;
+    width: 20%;
+}
+
+#enviePotion h1{
+    font-size: 3rem;
+    margin: 0;
+
+}
+
+#enviePotion h3{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#enviePotion h4{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 7rem;
+}
+
+#categories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    margin: 0;
+    padding: 0 20%;
+}
+
+.imgCat{
+    width: 100%;
+}
