@@ -46,11 +46,11 @@ header hr {
     width: 4rem;
     height: 4rem;
     margin: 0;
+    transition: all ease-out 0.1s;
 }
 
 .headerBtn:hover {
-    transition: all ease-in-out 0.1s;
-    width: 3.5rem;
+    transform: scale(0.85);
 }
 
 #headerContenu {
