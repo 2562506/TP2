@@ -1,3 +1,55 @@
-.header{
+header{
     background-color: var(--fond-secondaire);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+header p{
+    text-align: center;
+}
+
+#logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+#titre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#titre h1{
+    font-family: var(--police-titre);
+    font-size: 3rem;
+}
+
+
+header hr{
+    width: 80%;
+    margin: 0.5rem;
+}
+
+.headerBtn{
+    width: 4rem;
+    height: 4rem;
+    stroke: blue;
+}
+
+#headerContenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }

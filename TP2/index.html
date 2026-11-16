@@ -1,24 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TP2</title>
-  </head>
-  <body>
-    <header id="header">
-      <p>Concocté à la main avec des ingrédients plus ou moins identifiés • Préparé avec amour et des restes de frigo • Livré par magie (atterrissage <strong>non garanti</strong>)</p>
-      <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TP2</title>
+</head>
+
+<body>
+  <header>
+    <p>Concocté à la main avec des ingrédients plus ou moins identifiés • Préparé avec amour et des restes de frigo •
+      Livré par magie (atterrissage <strong>non garanti</strong>)</p>
+    <hr>
+    <div id="headerContenu">
+      <div id="titre">
+        <img src="public/Icons/Logo.png" alt="" id="logo">
         <h1>Potions & Potins</h1>
-        <div>
-          <img src="public/Icons/book-open.svg" alt="">
-          <img src="public/Icons/house.svg" alt="">
-          <img src="public/Icons/shopping-cart.svg" alt="">
-          <img src="public/Icons/user-round.svg" alt="">
-        </div>
       </div>
-    </header>
-    
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+
+      <div id="navigation">
+        <a href=""><img src="public/Icons/user-round.svg" alt="" class="headerBtn"></a>
+        <a href="index.html"><img src="public/Icons/house.svg" alt="" class="headerBtn"></a>
+        <a href="catalogue.html"><img src="public/Icons/book-open.svg" alt="" class="headerBtn"></a>
+        <a href=""></a><img src="public/Icons/shopping-cart.svg" alt="" class="headerBtn"></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="zoneHero">
+      <div class="presentation">
+        <h1 id="slogan">Vos Rêves Les
+          Plus Fous,
+          Maintenant En
+          Bouteille !</h1>
+        <hr>
+        <p class="description">Voler, disparaître, devenir plus fort…
+          Votre sorcière adorée a concocté de quoi
+          faire dérailler votre train-train quotidien !</p>
+          <div id="btnHero">
+            <button id="btnSimilaire"><p>Produits Similaires</p></button>
+            <button id="btnVedette"><p>Produit Vedette</p></button>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

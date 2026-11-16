@@ -1,0 +1,42 @@
+#zoneHero {
+    width: 100%;
+    margin: 0 2rem;
+}
+
+#zoneHero .presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+#zoneHero hr {
+    width: 40%;
+    margin-left: 0;
+}
+
+#slogan{
+    font-size: 5rem;
+}
+
+#zoneHero .description{
+    font-size: 2rem;
+}
+
+#zoneHero .presentation button{
+    border-radius: 1rem;
+    border: solid 0.2rem var(--couleur-miel);
+    width: 10rem;
+}
+
+#btnHero{
+    gap: 5rem;
+}
+
+#btnSimilaire{
+    background: var(--couleur-nature);
+}
+
+#btnVedette{
+    background: var(--fond-carte);
+}
