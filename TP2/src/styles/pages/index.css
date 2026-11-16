@@ -1,0 +1,146 @@
+#zoneHero {
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#zoneHero .presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+#zoneHero hr {
+    width: 40%;
+    margin-left: 0;
+}
+
+#slogan {
+    font-size: 5rem;
+}
+
+#zoneHero .description {
+    font-size: 2rem;
+}
+
+#zoneHero button {
+    border-radius: 1rem;
+    border: solid 0.2rem var(--couleur-miel);
+    width: 12rem;
+}
+
+#btnHero {
+    display: flex;
+    gap: 2rem;
+}
+
+#btnSimilaire {
+    background: var(--couleur-nature);
+    font-size: 1rem;
+    color: var(--couleur-texte);
+}
+
+#btnVedette {
+    background: var(--fond-carte);
+    font-size: 1rem;
+    color: var(--couleur-texte);
+}
+
+#produitVedette {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50%;
+    padding: 2rem 0;
+    left: 0;
+}
+
+#produitVedette img {
+    margin: 0;
+    padding: 0;
+    margin-right: -50%;
+    width: 75%;
+}
+
+#infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: linear-gradient(to left,
+            var(--couleur-nature) 0%,
+            var(--couleur-nature) 60%,
+            #c4d1ad00 100%);
+    width: 100%;
+    margin: 0%;
+    border-radius: 0 5rem 5rem 0;
+}
+
+#infosPosition {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+#infosPosition h2{
+    margin: 0;
+    font-family: var(--police-titre);
+    font-size: 3.25rem;
+}
+
+#infosPosition p{
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+    font-weight: var(--semi-bold);
+}
+
+#infosPosition button{
+    background-color: var(--fond-carte);
+    color: var(--couleur-texte);
+    font-family: var(--police-corps);
+    font-weight: var(--bold);
+}
+
+#infosPosition button p{
+    font-size: 1rem;
+    font-weight: var(--bold);
+    margin: 1rem;
+}
+
+#chouchous{
+    background-color: var(--couleur-nature);
+    display: flex;
+    flex-direction: row;
+    border-top: solid 0.5rem var(--couleur-miel);
+    border-bottom: solid 0.5rem var(--couleur-miel);
+}
+
+#chouchous .presentation{
+    width: 33%;
+    padding: 3rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#chouchous .presentation hr{
+    width: 30%;
+    margin:0;
+}
+
+#chouchous h1{
+    font-size: 3.25rem;
+    margin: 0%;
+}
+
+#chouchous p{
+    font-size: 1.5rem;
+    margin: 0%;
+}
+
+#caroussel{
+    width: 65%;
+}

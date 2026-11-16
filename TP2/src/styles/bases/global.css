@@ -69,12 +69,32 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
 }
 
 
 body{
     color: var(--couleur-texte);
     background-color: var(--fond-principal);
+    margin: 0;
+    padding: 0;
+    font-family: var(--police-corps);
+}
+
+hr{
+    border: solid 0.15rem var(--couleur-miel);
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: var(--police-titre);
+}
+
+p{
+    font-family: var(--police-corps);
 }

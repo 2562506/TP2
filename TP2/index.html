@@ -1,25 +1,119 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TP2</title>
-  </head>
-  <body>
-    <header id="header">
-      <p>Concocté à la main avec des ingrédients plus ou moins identifiés • Préparé avec amour et des restes de frigo • Livré par magie (atterrissage <strong>non garanti</strong>)</p>
-      <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil</title>
+</head>
+
+<body>
+
+  <header>
+    <p>Concocté à la main avec des ingrédients plus ou moins identifiés • Préparé avec amour et des restes de frigo •
+      Livré par magie (atterrissage <strong>non garanti</strong>)</p>
+    <hr>
+    <div class="headerContenu">
+      <div class="headerTitre">
+        <img src="Icons/Logo.png" alt="" class="logo">
         <h1>Potions & Potins</h1>
-        <a href="catalogue.html">Catalogue</a>
-        <div>
-          <img src="public/Icons/book-open.svg" alt="">
-          <img src="public/Icons/house.svg" alt="">
-          <img src="public/Icons/shopping-cart.svg" alt="">
-          <img src="public/Icons/user-round.svg" alt="">
+      </div>
+
+
+      <div class="navigation">
+        <a href="">
+          <img src="Icons/user-round.svg" alt="" class="headerBtn">
+        </a>
+        <a href="index.html">
+          <img src="Icons/house.svg" alt="" class="headerBtn">
+        </a>
+        <a href="catalogue.html">
+          <img src="Icons/book-open.svg" alt="" class="headerBtn">
+        </a>
+        <a href="">
+          <img src="Icons/shopping-cart.svg" alt="" class="headerBtn">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="zoneHero">
+      <div class="presentation">
+        <h1 id="slogan">Vos Rêves Les
+          Plus Fous,
+          Maintenant En
+          Bouteille !</h1>
+        <hr>
+        <p class="description">Voler, disparaître, devenir plus fort…
+          Votre sorcière adorée a concocté de quoi
+          faire dérailler votre train-train quotidien !</p>
+        <div id="btnHero">
+          <button id="btnSimilaire">
+            <p>Produits Similaires</p>
+          </button>
+          <button id="btnVedette">
+            <p>Produit Vedette</p>
+          </button>
         </div>
       </div>
-    </header>
-    
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+      <div id="produitVedette">
+        <img src="public/Icons/potion.svg" alt="">
+        <div id="infos">
+          <div id="infosPosition">
+            <h2>Potion de
+              SuperForce</h2>
+            <h2>49,99$</h2>
+            <p>Soulevez des rochers, déracinez des
+              arbres et impressionnez votre village
+              tout entier grâce à une force
+              surhumaine ! Seul petit inconvénient :
+              impossible de soulever ou déplacer
+              quoi que ce soit pesant moins de 20
+              kg. Bonne chance pour ramasser vos
+              clés !</p>
+            <button>
+              <p>Ajouter au panier</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="chouchous">
+      <div class="presentation">
+        <h1>Les Chouchous
+          du Chaudron</h1>
+        <hr>
+        <p>Les potions que nos clients
+          s'arrachent ! Testées, approuvées
+          et parfois regrettées… mais
+          toujours recommandées.</p>
+      </div>
+      <hr>
+      <div id="caroussel">
+
+      </div>
+    </div>
+
+    <div id="enviePotion">
+      <h1>À Chaque Envie, Sa Potion!</h1>
+      <hr>
+      <h3>Un nouveau talent ? Une transformation spectaculaire ? Une petite catastrophe magique ? Pas
+        d’inquiétudes, votre sorcière a pensé à tout !</h3>
+      <div id=categories>
+        <div></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
