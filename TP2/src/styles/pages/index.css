@@ -1,6 +1,8 @@
 #zoneHero {
     width: 100%;
-    margin: 0 2rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 #zoneHero .presentation {
@@ -15,28 +17,91 @@
     margin-left: 0;
 }
 
-#slogan{
+#slogan {
     font-size: 5rem;
 }
 
-#zoneHero .description{
+#zoneHero .description {
     font-size: 2rem;
 }
 
-#zoneHero .presentation button{
+#zoneHero button {
     border-radius: 1rem;
     border: solid 0.2rem var(--couleur-miel);
-    width: 10rem;
+    width: 12rem;
 }
 
-#btnHero{
-    gap: 5rem;
+#btnHero {
+    display: flex;
+    gap: 2rem;
 }
 
-#btnSimilaire{
+#btnSimilaire {
     background: var(--couleur-nature);
+    font-size: 1rem;
+    color: var(--couleur-texte);
 }
 
-#btnVedette{
+#btnVedette {
     background: var(--fond-carte);
+    font-size: 1rem;
+    color: var(--couleur-texte);
+}
+
+#produitVedette {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    height: 50%;
+    padding: 2rem 0;
+    left: 0;
+}
+
+#produitVedette img {
+    margin: 0;
+    padding: 0;
+    margin-right: -50%;
+}
+
+#infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: linear-gradient(to left,
+            var(--couleur-nature) 0%,
+            var(--couleur-nature) 67%,
+            #c4d1ad00 100%);
+    width: 100%;
+    margin: 0%;
+}
+
+#infosPosition {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+#infosPosition h2{
+    margin: 0;
+    font-family: var(--police-titre);
+    font-size: 3rem;
+}
+
+#infosPosition p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: var(--semi-bold);
+}
+
+#infosPosition button{
+    background-color: var(--fond-carte);
+    color: var(--couleur-texte);
+    font-family: var(--police-corps);
+    font-weight: var(--bold);
+}
+
+#infosPosition button p{
+    font-size: 1rem;
 }

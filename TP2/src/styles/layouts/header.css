@@ -1,43 +1,56 @@
-header{
+header {
     background-color: var(--fond-secondaire);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-
+    gap: 0.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 67;
 }
 
-header p{
+header p {
     text-align: center;
+    margin: 0;
+    margin-top: 0.5rem;
 }
 
-#logo{
+#logo {
     width: 5rem;
     height: 5rem;
+    margin: 0;
 }
 
-#titre{
+#titre {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    margin: 0;
 }
 
-#titre h1{
+#titre h1 {
     font-family: var(--police-titre);
     font-size: 3rem;
+    margin: 0;
 }
 
 
-header hr{
-    width: 80%;
+header hr {
+    width: 90%;
     margin: 0.5rem;
 }
 
-.headerBtn{
+.headerBtn {
     width: 4rem;
     height: 4rem;
-    stroke: blue;
+    margin: 0;
+}
+
+.headerBtn:hover {
+    transition: all ease-in-out 0.1s;
+    width: 3.5rem;
 }
 
 #headerContenu {
@@ -45,11 +58,13 @@ header hr{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 90%;
+    margin-bottom: 0.5rem;
 }
 
 #navigation {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin: 0;
 }
