@@ -91,11 +91,10 @@ hr{
     flex-direction: column;
 }
 
-.presentation h1{
+h1{
     font-family: var(--police-titre);
 }
 
-.presentation p{
+p{
     font-family: var(--police-corps);
-    font-weight: var(--bold);
 }

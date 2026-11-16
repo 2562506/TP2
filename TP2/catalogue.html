@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogue</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="catalogue.html">Catalogue</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <p>Concocté à la main avec des ingrédients plus ou moins identifiés • Préparé avec amour et des restes de frigo
+            •
+            Livré par magie (atterrissage <strong>non garanti</strong>)</p>
+        <hr>
+        <div class="headerContenu">
+            <div class="headerTitre">
+                <img src="public/Icons/Logo.png" alt="" class="logo">
+                <h1>Potions & Potins</h1>
+            </div>
+
+
+            <div class="navigation">
+                <img src="public/Icons/user-round.svg" alt="" class="headerBtn">
+
+                <a href="index.html">
+                    <img src="public/Icons/house.svg" alt="" class="headerBtn">
+                </a>
+                <a href="catalogue.html">
+                    <img src="public/Icons/book-open.svg" alt="" class="headerBtn">
+                </a>
+
+                <img src="public/Icons/shopping-cart.svg" alt="" class="headerBtn">
+            </div>
+        </div>
     </header>
     <main>
         <section id="catalogue">
@@ -30,7 +49,9 @@
         </section>
     </main>
     <footer>
-        
+
     </footer>
+    <script type="module" src="/src/catalogue.js"></script>
 </body>
+
 </html>
