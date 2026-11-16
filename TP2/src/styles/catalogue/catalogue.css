@@ -1,14 +1,15 @@
 main {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
 .product-list {
     display: flex;
     align-items: flex-start;
+    column-gap: 2rem;
 }
