@@ -40,11 +40,14 @@
             <h1>Le Grimoire Des Potions</h1>
             <h2>Potions & Potins - Collection Officielle</h2>
             <h3>Des pouvoirs extraordinaires qui n'attendent qu'à être utilisés.</h3>
-            <div>
+            <div class="boite-recherche">
                 <h2>Rechercher une potion</h2>
                 <input type="text" id="searchInput" placeholder="Ex: invisibilité, superforce, guérison...">
             </div>
-            <h2 id="fiche-grimoire">Les fiches du grimoire</h2>
+            <div id="info-supplementaires">
+                <h2 id="fiche-grimoire">Les fiches du grimoire</h2>
+                <h2 id="nombre-potions">x Potions</h2>
+            </div>
             <div class="product-list">
                 <div class="boite-catalogue">
                     <h3 class="item-catalogue">Item 1</h3>
@@ -53,15 +56,22 @@
                     </div>
                     <h2 class="titre-potion">Superforce</h2>
                     <p class="potion-description">Soulevez des montagnes et repoussez les limites humaines, mais moins de 20kg et vous devenez impuissant</p>
-                    <h2 class="prix">49,99$</h2>
+                    <div class="achat">
+                        <h2 class="prix">49,99$</h2>
+                        <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                    </div>  
                 </div>
                 <div class="boite-catalogue">
                     <h3 class="item-catalogue">Item 2</h3>
                     <div class="boite-image">
-                        <img src="public/Icons/biceps-flexed.svg" alt="biceps" class="image-potion">
+                        <img src="public/Icons/eye-off.svg" alt="eye-off" class="image-potion">
                     </div>
                     <h2 class="titre-potion">Invisibilité</h2>
                     <p class="potion-description">Devenez invisible aux yeux de tous, mais attention aux reflets dans les miroirs !</p>
+                    <div class="achat">
+                        <h2 class="prix">49,99$</h2>
+                        <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                    </div>  
                 </div>
                 <div class="boite-catalogue">
                     <h3 class="item-catalogue">Item 3</h3>

@@ -8,6 +8,12 @@
     gap: 2rem;
 }
 
+#catalogue {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .product-list {
     display: flex;
     align-items: center;
@@ -20,17 +26,35 @@
 
 .boite-catalogue {
     width: clamp(10rem, 40vw, 20rem);
-
-    height: 25rem;
+    height: 28rem;
     padding: 1rem;
     background-color: #fff5e5;
     border: 0.2rem solid #e5d1ac;
     border-radius: 1rem;    
 }
 
+.boite-recherche {
+    width: clamp(10rem, 40vw, 20rem);
+    padding: 1rem;
+    background-color: #c4d1ad;
+    border-radius: 1rem;
+}
+
 #fiche-grimoire {
     display: flex;
     align-items: flex-start;
+    padding: 1rem;
+}
+
+#nombre-potions {
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+#info-supplementaires {
+    display: flex;
+    justify-content: space-between;
 }
 
 .item-catalogue {
@@ -73,4 +97,9 @@
     display: flex;
     align-items: flex-start;
     font-size: 1.25rem;
+}
+
+.achat {
+    display: flex;
+    justify-content: space-between;
 }
