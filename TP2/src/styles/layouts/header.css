@@ -68,3 +68,130 @@ header hr {
     gap: 1rem;
     margin: 0;
 }
+
+
+@media (max-width: 1200px) {
+    .headerTitre h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .headerBtn {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .navigation {
+        gap: 0.75rem;
+    }
+}
+
+@media (max-width: 900px) {
+    header p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .headerContenu {
+        width: 95%;
+    }
+
+    .headerTitre {
+        gap: 0.5rem;
+    }
+
+    .headerTitre h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .headerBtn {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .navigation {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        gap: 0.25rem;
+    }
+
+    header p {
+        font-size: 0.75rem;
+        padding: 0 1rem;
+        margin-top: 0.5rem;
+    }
+
+    header hr {
+        width: 95%;
+        margin: 0.25rem;
+    }
+
+    .headerContenu {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .headerTitre {
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .headerTitre h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .navigation {
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+    }
+
+    .headerBtn {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+}
+
+@media (max-width: 380px) {
+    header p {
+        font-size: 0.65rem;
+    }
+
+    .headerTitre h1 {
+        font-size: 1.6rem;
+    }
+
+    .logo {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .headerBtn {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .navigation {
+        gap: 0.25rem;
+    }
+}

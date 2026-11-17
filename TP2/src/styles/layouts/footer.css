@@ -1,0 +1,120 @@
+
+footer {
+    background-color: var(--couleur-nature);
+    color: var(--couleur-texte);
+    border-top: 0.3rem solid var(--couleur-miel);
+    padding: 3rem 4rem 1rem;
+    margin-top: 5rem;
+}
+
+#footerContenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-bottom: 3rem;
+}
+
+.footerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 40%;
+}
+
+.footerSection h2 {
+    font-family: var(--police-titre);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.footerSection p {
+    font-family: var(--police-corps);
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+#footerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#footerLogo img {
+    width: 3rem;
+}
+
+#reseauxSociaux {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+#reseauxSociaux img {
+    width: 2.5rem;
+    transition: transform 0.2s;
+}
+
+#reseauxSociaux img:hover {
+    transform: scale(0.85);
+}
+
+.footerLiens {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.footerLiens a {
+    color: var(--couleur-texte);
+    text-decoration: none;
+    font-family: var(--police-corps);
+    font-size: 1.25rem;
+    transition: color 0.2s;
+}
+
+.footerLiens a:hover {
+    color: var(--couleur-miel);
+    text-decoration: underline;
+}
+
+#footerBas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    border-top: 0.15rem solid var(--couleur-miel);
+    padding-top: 1.5rem;
+}
+
+#footerBas p {
+    font-family: var(--police-corps);
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+
+@media (max-width: 700px) {
+    footer {
+        padding: 2rem;
+    }
+
+    #footerContenu {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .footerSection {
+        width: 100%;
+    }
+
+    #footerBas {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
