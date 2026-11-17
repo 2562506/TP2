@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
 
 <body>
     <header>
+        <!-- Header -->
         <p>Concocté à la main avec des ingrédients plus ou moins identifiés • Préparé avec amour et des restes de frigo
             •
             Livré par magie (atterrissage <strong>non garanti</strong>)</p>
@@ -37,24 +38,36 @@
     </header>
     <main id="mainCatalogue">
         <section id="catalogue">
+            <!-- Titre et sous-titres -->
             <h1>Le Grimoire Des Potions</h1>
             <h2>Potions & Potins - Collection Officielle</h2>
             <h3>Des pouvoirs extraordinaires qui n'attendent qu'à être utilisés.</h3>
+
+            <!-- Barre de recherche avec filtres -->
             <div class="boite-recherche">
-                <h2>Rechercher une potion</h2>
+                <h2 id="recherche-potion">Rechercher une potion</h2>
                 <input type="text" id="searchInput" placeholder="Ex: invisibilité, superforce, guérison...">
+                <div id="classement">
+                    <button class="filtres">Toutes</button>
+                    <button class="filtres">Corps</button>
+                    <button class="filtres">Esprit</button>
+                    <button class="filtres">Insolites</button>
+                    <button class="filtres">Magie</button>
+                </div>
             </div>
+            <!-- Sous-titres 2 -->
             <div id="info-supplementaires">
                 <h2 id="fiche-grimoire">Les fiches du grimoire</h2>
-                <h2 id="nombre-potions">x Potions</h2>
+                <h2 id="nombre-potions">15 Potions Totales</h2>
             </div>
+            <!-- Liste des potions -->
             <div class="product-list">
                 <div class="boite-catalogue">
-                    <h3 class="item-catalogue">Item 1</h3>
+                    <h3 class="item-catalogue">Potion 1</h3>
                     <div class="boite-image">
                         <img src="public/Icons/biceps-flexed.svg" alt="biceps" class="image-potion">
                     </div>
-                    <h2 class="titre-potion">Superforce</h2>
+                    <h2 class="titre-potion">Super-force</h2>
                     <p class="potion-description">Soulevez des montagnes et repoussez les limites humaines, mais moins de 20kg et vous devenez impuissant</p>
                     <div class="achat">
                         <h2 class="prix">49,99$</h2>
@@ -62,26 +75,181 @@
                     </div>  
                 </div>
                 <div class="boite-catalogue">
-                    <h3 class="item-catalogue">Item 2</h3>
+                    <h3 class="item-catalogue">Potion 2</h3>
                     <div class="boite-image">
                         <img src="public/Icons/eye-off.svg" alt="eye-off" class="image-potion">
                     </div>
                     <h2 class="titre-potion">Invisibilité</h2>
                     <p class="potion-description">Devenez invisible aux yeux de tous, mais attention aux reflets dans les miroirs !</p>
                     <div class="achat">
-                        <h2 class="prix">49,99$</h2>
+                        <h2 class="prix">39,99$</h2>
                         <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
                     </div>  
                 </div>
                 <div class="boite-catalogue">
-                    <h3 class="item-catalogue">Item 3</h3>
+                    <h3 class="item-catalogue">Potion 3</h3>
+                    <div class="boite-image">
+                        <img src="public/Icons/heart.svg" alt="heart" class="image-potion">
+                    </div>
+                    <h2 class="titre-potion">Immortalité</h2>
+                    <p class="potion-description">Devenez immortel et viviez pour l'éternité, mais attention aux conséquences de l'immortalité !</p>
+                    <div class="achat">
+                        <h2 class="prix">89,99$</h2>
+                        <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                    </div>
                 </div>
                 <div class="boite-catalogue">
-                    <h3 class="item-catalogue">Item 4</h3>
+                    <h3 class="item-catalogue">Potion 4</h3>
+                    <div class="boite-image">
+                        <img src="public/Icons/eye.svg" alt="eye" class="image-potion">
+                    </div>
+                            <h2 class="titre-potion">Super-vision</h2>
+                            <p class="potion-description">Obtenez la capacité de voir à travers les objets et les personnes, mais vous perdez la capacité de lire.</p>
+                            <div class="achat">
+                            <h2 class="prix">29,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 5</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/flower.svg" alt="odorat" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Super-odorat</h2>
+                        <p class="potion-description">Sentez toutes les odeurs autour de vous, mais toutes les odeurs vous donnent faim.</p>
+                        <div class="achat">
+                            <h2 class="prix">34,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 6</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/loader.svg" alt="disparition" class="image-potion">
+                        </div>
+                            <h2 class="titre-potion">Faire disparaître</h2>
+                            <p class="potion-description">Faites disparaître n'importe quel objet, mais vous ne pourrez jamais le faire réapparaître.</p>
+                        <div class="achat">
+                            <h2 class="prix">44,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 7</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/waves-arrow-down.svg" alt="respiration aquatique" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Respirer dans l'eau</h2>
+                        <p class="potion-description">Respirez sous l'eau comme un poisson, mais seulement si vous ne nagez pas.</p>
+                        <div class="achat">
+                            <h2 class="prix">54,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 8</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/mouth.svg" alt="accent" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Changer d'accent</h2>
+                        <p class="potion-description">Changez votre accent sur demande, mais votre personnalité change aussi selon le stéréotype de cet accent.</p>
+                        <div class="achat">
+                            <h2 class="prix">24,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 9</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/circle-dollar-sign.svg" alt="argent" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Créer de l'argent</h2>
+                        <p class="potion-description">Créez de l'argent à volonté, mais vous pouvez seulement créer de l'argent de Monopoly.</p>
+                        <div class="achat">
+                            <h2 class="prix">19,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 10</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/wand-sparkles.svg" alt="métamorphose" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Se métamorphoser</h2>
+                        <p class="potion-description">Transformez-vous en n'importe qui, mais vous pouvez seulement vous transformer en Donald Trump.</p>
+                        <div class="achat">
+                            <h2 class="prix">59,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 11</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/sport-shoe.svg" alt="endurance" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Endurance illimitée</h2>
+                        <p class="potion-description">Courez sans jamais vous fatiguer, mais vous ne pouvez jamais arrêter de courir.</p>
+                        <div class="achat">
+                            <h2 class="prix">69,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 12</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/swords.svg" alt="combat" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Super capacité de combat</h2>
+                        <p class="potion-description">Devenez un maître du combat, mais votre pouvoir fonctionne seulement lorsque personne ne vous regarde.</p>
+                        <div class="achat">
+                            <h2 class="prix">74,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 13</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/message-square-heart.svg" alt="rizz" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Super rizz</h2>
+                        <p class="potion-description">Charmez n'importe qui, mais votre pouvoir fonctionne seulement avec les personnes ayant 20 ans d'écart avec vous.</p>
+                        <div class="achat">
+                            <h2 class="prix">39,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 14</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/backpack.svg" alt="inventaire" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Inventaire dimensionnel</h2>
+                        <p class="potion-description">Rangez autant d'objets que vous voulez dans une dimension de poche, mais vous devez les vomir pour les récupérer.</p>
+                        <div class="achat">
+                            <h2 class="prix">64,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
+                    <div class="boite-catalogue">
+                        <h3 class="item-catalogue">Potion 15</h3>
+                        <div class="boite-image">
+                            <img src="public/Icons/mirror-round.svg" alt="copier" class="image-potion">
+                        </div>
+                        <h2 class="titre-potion">Copier les capacités</h2>
+                        <p class="potion-description">Copiez les capacités des autres, mais vous héritez aussi de leurs insécurités et de leurs complexes.</p>
+                        <div class="achat">
+                            <h2 class="prix">79,99$</h2>
+                            <img src="public/Icons/shopping-cart-plus.svg" alt="shopping-cart-plus" class="ajout-panier">
+                        </div>
+                    </div>
                 </div>  
             </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer>
     <div id="footerContenu">
 
