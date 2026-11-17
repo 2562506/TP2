@@ -161,7 +161,6 @@ main {
     padding: 3rem 0 4rem;
 }
 
-/* Diapositives Swiper */
 #carrousel .swiperDiapo {
     width: 15rem;
     height: auto;
@@ -169,15 +168,12 @@ main {
     box-sizing: border-box;
 }
 
-/* Carte de produit */
 .cartePotion {
     background-color: var(--fond-carte);
     border: 0.2rem solid var(--couleur-miel);
     border-radius: 1.5rem;
     padding: 1.5rem;
-
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,29 +181,25 @@ main {
     gap: 0.75rem;
 }
 
-/* Illustration de la potion */
 .cartePotion img {
     display: block;
     width: 8rem;
-    height: 9rem;
+    height: 8rem;
     object-fit: contain;
 }
 
-/* Nom */
 .cartePotion h3 {
     font-family: var(--police-titre);
     font-size: 1.3rem;
     margin: 0;
 }
 
-/* Prix */
 .cartePotion p {
     font-size: 1.2rem;
     font-weight: var(--bold);
     margin: 0;
 }
 
-/* Bouton */
 .cartePotion button {
     background-color: var(--couleur-nature);
     color: var(--couleur-texte);

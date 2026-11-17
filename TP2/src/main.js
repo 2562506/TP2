@@ -57,6 +57,7 @@ const carousel = new Swiper('#carrousel', {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',
+    loop: true,
 
     coverflowEffect: {
         rotate: 25,
@@ -68,5 +69,6 @@ const carousel = new Swiper('#carrousel', {
 
     pagination: {
         el: '#swiper-pagination',
+        clickable: true
     },
 });
