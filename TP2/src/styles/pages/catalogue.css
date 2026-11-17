@@ -8,6 +8,14 @@
     gap: 2rem;
 }
 
+#searchInput {
+    background-color: #fff5e5;
+    border: 0.2rem solid #fff5e5;
+    height: 2rem;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
 #catalogue {
     display:flex;
     flex-direction: column;
@@ -32,12 +40,19 @@
     border: 0.2rem solid #e5d1ac;
     border-radius: 1rem;    
 }
-
+#recherche-potion {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.25rem;
+}
 .boite-recherche {
-    width: clamp(10rem, 40vw, 20rem);
+    width: 90%;
     padding: 1rem;
     background-color: #c4d1ad;
     border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 #fiche-grimoire {
