@@ -1,7 +1,7 @@
 main{
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 7rem;
 }
 
 #zoneHero {
@@ -120,8 +120,15 @@ main{
     background-color: var(--couleur-nature);
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 2rem;
     border-top: solid 0.5rem var(--couleur-miel);
     border-bottom: solid 0.5rem var(--couleur-miel);
+}
+
+#delimiteur{
+    margin: 0;
+    height: 10rem;
 }
 
 #chouchous .presentation{
@@ -159,7 +166,7 @@ main{
     align-items: center;
     text-align: center;
     padding: 2rem;
-    gap: 2rem
+    gap: 4rem
 }
 
 #enviePotion hr{

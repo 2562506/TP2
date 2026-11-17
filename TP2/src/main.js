@@ -7,27 +7,36 @@ const animationHero = gsap.timeline();
 animationHero.from("#slogan", {
     x: -60,
     opacity: 0,
-    duration: 0.8,
+    duration: 1,
     ease: "power2.out"
 });
 
 animationHero.from("#zoneHero .description", {
     x: -40,
     opacity: 0,
-    duration: 0.6,
+    duration: 1.1,
     ease: "power2.out"
-}, "-=0.4");
+}, "-=0.95");
 
-animationHero.from("#btnHero button", {
+animationHero.from("#btnHero" , {
     y: 30,
-    duration: 0.5,
-    stagger: 0.15,
+    opacity: 0,
+    duration: 1.2,
+    stagger: 0.5,
     ease: "power2.out"
-}, "-=0.3");
+}, "-=0.95");
 
-animationHero.from("#produitVedette", {
+animationHero.from("#infos", {
     x: 80,
     opacity: 0,
-    duration: 1,
+    duration: 1.3,
     ease: "power2.out"
-}, "-=0.8");
+}, "-=0.95");
+
+animationHero.from("#imgPotion", {
+    x: 400,
+    opacity: 0,
+    duration: 1.4,
+    rotate: 45,
+    ease: "power2.out"
+}, "-=0.95");
