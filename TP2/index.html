@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8" />
@@ -19,19 +19,18 @@
         <h1>Potions & Potins</h1>
       </div>
 
-
       <div class="navigation">
         <a href="">
-          <img src="Icons/user-round.svg" alt="" class="headerBtn">
+          <img src="Icons/user-round.svg" alt="Mon compte" class="headerBtn">
         </a>
         <a href="index.html">
-          <img src="Icons/house.svg" alt="" class="headerBtn">
+          <img src="Icons/house.svg" alt="Accueil" class="headerBtn">
         </a>
         <a href="catalogue.html">
-          <img src="Icons/book-open.svg" alt="" class="headerBtn">
+          <img src="Icons/book-open.svg" alt="Catalogue des potions" class="headerBtn">
         </a>
         <a href="">
-          <img src="Icons/shopping-cart.svg" alt="" class="headerBtn">
+          <img src="Icons/shopping-cart.svg" alt="Panier" class="headerBtn">
         </a>
       </div>
     </div>
@@ -60,7 +59,7 @@
       </div>
 
       <div id="produitVedette">
-        <img src="public/Icons/potion.svg" alt="">
+        <img src="public/Icons/potion.svg" alt="Illustration d'une potion magique">
         <div id="infos">
           <div id="infosPosition">
             <h2>Potion de
@@ -101,16 +100,108 @@
     <div id="enviePotion">
       <h1>À Chaque Envie, Sa Potion!</h1>
       <hr>
-      <h3>Un nouveau talent ? Une transformation spectaculaire ? Une petite catastrophe magique ? Pas
-        d’inquiétudes, votre sorcière a pensé à tout !</h3>
+      <h4>Un nouveau talent ? Une transformation spectaculaire ? Une petite catastrophe magique ? Pas
+        d’inquiétudes, votre sorcière a pensé à tout !</h4>
       <div id=categories>
-        <div></div>
+        <div class="carteCat">
+          <img src="Icons/biceps.svg" alt="" class="imgCat" id="biceps">
+          <h3>Corps & Capacités</h3>
+        </div>
+        <div class="carteCat">
+          <img src="Icons/magic.svg" alt="" class="imgCat" id="magic">
+          <h3>Magie & Mystères</h3>
+        </div>
+        <div class="carteCat">
+          <img src="Icons/brain.svg" alt="" class="imgCat" id="brain">
+          <h3>Esprit & Relations</h3>
+        </div>
+        <div class="carteCat">
+          <img src="Icons/orbit.svg" alt="" class="imgCat" id="orbit">
+          <h3>Pouvoirs Insolites</h3>
+        </div>
       </div>
     </div>
+
+    <div id="noteAuteur">
+      <div id="encadre">
+        <img src="Icons/sorciereProfil.jpg" alt="Illustration de la sorcière préparant une potion dans son chaudron">
+        <div id="noteContenu">
+          <div id="noteEntete">
+            <p>Un Petit Mot De La Sorcière</p>
+            <p>Au fond de la forêt des Rêves Blancs</p>
+          </div>
+          <h1>Bienvenue Dans Mon Petit Atelier!</h1>
+          <p id="note">Installez-vous, faites comme chez vous! Votre petite sorcière
+            préférée a mis toutes ces années d’expérience à votre
+            service pour vous concocter des potions de premier choix! Je
+            ne comprends peuit-etre pas tout ce que je fais, mais je
+            sais néanmoins rester professionnelle!</p>
+          <p id="signature">~ Votre sorcière adorée</p>
+          <div id="noteBas">
+            <button>
+              <p>En savoir plus</p>
+            </button>
+            <img src="Icons/ancre.svg" alt="" id="ancre">
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <footer>
+    <div id="footerContenu">
 
+      <div class="footerSection">
+        <div id="footerLogo">
+          <img src="Icons/Logo.png" alt="">
+          <h2>Potions & Potins</h2>
+        </div>
+
+        <p>Retrouvez tous vos rêves les plus fous en bouteilles !</p>
+
+        <div id="reseauxSociaux">
+          <a href="#"><img src="Icons/youtube.svg" alt="YouTube"></a>
+          <a href="#"><img src="Icons/instagram.svg" alt="Instagram"></a>
+          <a href="#"><img src="Icons/facebook.svg" alt="Facebook"></a>
+        </div>
+      </div>
+
+      <div class="footerSection">
+        <h2>Explorer</h2>
+        <nav class="footerLiens">
+          <a href="index.html">Accueil</a>
+          <a href="catalogue.html">Comptoir des Potions</a>
+          <a href="#chouchous">Les chouchous du chaudron</a>
+          <a href="#noteAuteur">Histoire de la sorcière</a>
+        </nav>
+      </div>
+
+      <div class="footerSection">
+        <h2>Besoin d'aide ?</h2>
+        <nav class="footerLiens">
+          <a href="#">Nous contacter</a>
+          <a href="#">Livraisons magiques</a>
+          <a href="#">Demandes personnalisées</a>
+        </nav>
+      </div>
+
+      <div class="footerSection">
+        <h2>Avertissement</h2>
+        <p>Mes potions ne sont pas approuvées par la Commission
+          de Réglementation des Activités en Potions et Autres
+          Usages Douteux, plus connue sous le nom de
+          C.R.A.P.A.U.D. pour les intimes. Par conséquent,
+          veuillez consommer tout produit venant de ce site
+          avec discernement.</p>
+      </div>
+
+    </div>
+
+    <div id="footerBas">
+      <p>© 2026 Potions & Potins — Tous droits (plus ou moins) réservés.</p>
+      <p>Fait avec amour et un soupçon de magie.</p>
+    </div>
   </footer>
 
   <script type="module" src="/src/main.js"></script>
