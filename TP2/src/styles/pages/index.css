@@ -1,4 +1,4 @@
-main{
+main {
     display: flex;
     flex-direction: column;
     gap: 7rem;
@@ -91,32 +91,32 @@ main{
     gap: 1rem;
 }
 
-#infosPosition h2{
+#infosPosition h2 {
     margin: 0;
     font-family: var(--police-titre);
     font-size: 3.25rem;
 }
 
-#infosPosition p{
+#infosPosition p {
     margin: 1.5rem 0;
     font-size: 1.6rem;
     font-weight: var(--semi-bold);
 }
 
-#infosPosition button{
+#infosPosition button {
     background-color: var(--fond-carte);
     color: var(--couleur-texte);
     font-family: var(--police-corps);
     font-weight: var(--bold);
 }
 
-#infosPosition button p{
+#infosPosition button p {
     font-size: 1rem;
     font-weight: var(--bold);
     margin: 1rem;
 }
 
-#chouchous{
+#chouchous {
     background-color: var(--couleur-nature);
     display: flex;
     flex-direction: row;
@@ -126,39 +126,98 @@ main{
     border-bottom: solid 0.5rem var(--couleur-miel);
 }
 
-#delimiteur{
+#delimiteur {
     margin: 0;
     height: 10rem;
 }
 
-#chouchous .presentation{
-    width: 33%;
+#chouchous .presentation {
+    width: 35%;
     padding: 3rem;
-    gap: 1.5rem;
+    gap: 2rem;
     display: flex;
     flex-direction: column;
 }
 
-#chouchous .presentation hr{
+#chouchous .presentation hr {
     width: 30%;
-    margin:0;
+    margin: 0;
 }
 
-#chouchous h1{
+#chouchous h1 {
     font-size: 3.25rem;
     margin: 0%;
 }
 
-#chouchous p{
+#chouchous p {
     font-size: 1.5rem;
     margin: 0%;
 }
 
-#caroussel{
-    width: 65%;
+/* Conteneur du carrousel */
+#carrousel {
+    width: 60%;
+    min-width: 0;
+    padding: 3rem 0 4rem;
 }
 
-#enviePotion{
+/* Diapositives Swiper */
+#carrousel .swiperDiapo {
+    width: 15rem;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+/* Carte de produit */
+.cartePotion {
+    background-color: var(--fond-carte);
+    border: 0.2rem solid var(--couleur-miel);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+}
+
+/* Illustration de la potion */
+.cartePotion img {
+    display: block;
+    width: 8rem;
+    height: 9rem;
+    object-fit: contain;
+}
+
+/* Nom */
+.cartePotion h3 {
+    font-family: var(--police-titre);
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+/* Prix */
+.cartePotion p {
+    font-size: 1.2rem;
+    font-weight: var(--bold);
+    margin: 0;
+}
+
+/* Bouton */
+.cartePotion button {
+    background-color: var(--couleur-nature);
+    color: var(--couleur-texte);
+    border: 0.15rem solid var(--couleur-miel);
+    border-radius: 0.75rem;
+    padding: 0.65rem 1rem;
+    cursor: pointer;
+}
+
+#enviePotion {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -169,29 +228,29 @@ main{
     gap: 4rem
 }
 
-#enviePotion hr{
+#enviePotion hr {
     margin: 0;
     width: 20%;
 }
 
-#enviePotion h1{
+#enviePotion h1 {
     font-size: 3rem;
     margin: 0;
 
 }
 
-#enviePotion h3{
+#enviePotion h3 {
     font-size: 2.5rem;
     margin: 0;
 }
 
-#enviePotion h4{
+#enviePotion h4 {
     font-size: 2rem;
     margin: 0;
     padding: 0 7rem;
 }
 
-#categories{
+#categories {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -202,36 +261,36 @@ main{
     width: 100%;
 }
 
-.imgCat{
+.imgCat {
     width: 100%;
     padding: 15%;
     border-radius: 3rem;
 }
 
-#biceps{
+#biceps {
     background-color: #EBCBC5
 }
 
-#magic{
+#magic {
     background-color: #C9D9DF
 }
 
-#brain{
+#brain {
     background-color: #D8CCE2
 }
 
-#orbit{
+#orbit {
     background-color: #D1CCAD
 }
 
 
-#noteAuteur{
+#noteAuteur {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#encadre{
+#encadre {
     display: flex;
     width: 75%;
     flex-direction: row;
@@ -241,33 +300,33 @@ main{
     border: 1rem solid var(--couleur-texte);
 }
 
-#encadre p{
+#encadre p {
     font-family: var(--police-manuscrit);
 }
 
-#encadre img{
+#encadre img {
     border-radius: 1rem 0 0 1rem;
 }
 
-#noteEntete{
+#noteEntete {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem;
 }
 
-#encadre h1{
+#encadre h1 {
     font-family: var(--police-manuscrit);
     padding: 0 1rem;
     font-size: 2.5rem;
 }
 
-#note{
+#note {
     font-size: 1.5rem;
     padding: 0 1rem;
 }
 
-#ancre{
+#ancre {
     width: 5rem;
 }
 
@@ -279,21 +338,21 @@ main{
     background-color: var(--couleur-nature);
 }
 
-#noteBas button p{
+#noteBas button p {
     font-size: 1.25rem;
     font-family: var(--police-corps);
     font-weight: var(--semi-bold);
     color: var(--couleur-texte);
 }
 
-#noteBas{
+#noteBas {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1rem;
 }
 
-#signature{
+#signature {
     font-size: 1.75rem;
     font-weight: var(--bold);
     padding: 0 1rem;
@@ -333,7 +392,7 @@ main{
         width: 90%;
     }
 
-    #encadre > img {
+    #encadre>img {
         width: 40%;
         object-fit: cover;
     }
@@ -380,13 +439,14 @@ main{
         padding: 2rem;
     }
 
-    #chouchous > hr {
+    #chouchous>hr {
         display: none;
     }
 
-    #caroussel {
+    #carrousel {
         width: 100%;
-        min-height: 15rem;
+        min-width: 0;
+        padding: 2rem 0 3rem;
     }
 
     #categories {
@@ -407,7 +467,7 @@ main{
         width: 85%;
     }
 
-    #encadre > img {
+    #encadre>img {
         width: 100%;
         max-height: 25rem;
         object-fit: cover;
@@ -544,7 +604,7 @@ main{
         border-radius: 1.5rem;
     }
 
-    #encadre > img {
+    #encadre>img {
         max-height: 20rem;
     }
 

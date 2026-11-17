@@ -1,6 +1,13 @@
 import './style.css'
 import { gsap } from "gsap";
 
+import Swiper from 'swiper';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
 
 const animationHero = gsap.timeline();
 
@@ -40,3 +47,26 @@ animationHero.from("#imgPotion", {
     rotate: 45,
     ease: "power2.out"
 }, "-=0.95");
+
+
+
+const carousel = new Swiper('#carrousel', {
+    modules: [EffectCoverflow, Pagination],
+
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+
+    coverflowEffect: {
+        rotate: 25,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+    },
+
+    pagination: {
+        el: '#swiper-pagination',
+    },
+});
