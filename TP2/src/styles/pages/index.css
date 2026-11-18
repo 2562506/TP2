@@ -257,6 +257,11 @@ main {
     width: 100%;
     padding: 15%;
     border-radius: 3rem;
+    transition: all ease-out 0.1s;
+}
+
+.imgCat:hover{
+    transform: scale(0.9);
 }
 
 #biceps {
