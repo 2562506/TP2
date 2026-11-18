@@ -23,8 +23,3 @@ function filterByName(event) {
     }
   });
 }
-
-
-btns.forEach(function(btn)) {
-  btn.addEventListe
-}
