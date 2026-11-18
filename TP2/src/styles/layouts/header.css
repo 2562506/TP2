@@ -49,6 +49,11 @@ header hr {
     transition: all ease-out 0.1s;
 }
 
+.headerBtn.active{
+    border: solid 0.25rem var(--couleur-texte);
+    border-radius: 0.5rem;
+}
+
 .headerBtn:hover {
     transform: scale(0.85);
 }
