@@ -8,6 +8,7 @@
     text-align: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 0 5rem;
 }
 
 /* Barre de recherche */
@@ -31,8 +32,13 @@
 /* Apparence des boutons de filtre */
 .filtres {
     background-color: #fff5e5;
-    border: 0.2rem solid #fff5e5;
+    border: 0.15rem solid #fff5e5;
     border-radius: 0.4rem;
+    padding: 0.3rem;
+}
+
+.filtres.active{
+    border-color: var(--couleur-texte);
 }
 
 /* Organisation du catalogue */
@@ -41,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 /* Organisation des fiches de potions */
@@ -73,7 +80,7 @@
 
 /* Boîte qui contient la recherche et les filtres */
 .boite-recherche {
-    width: 90%;
+    width: 100%;
     padding: 1rem;
     background-color: #c4d1ad;
     border-radius: 1rem;

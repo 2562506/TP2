@@ -1,3 +1,4 @@
+/* Ajout de polices d'écriture avec leurs différentes épaisseurs*/
 @font-face{
     font-family: "Fraunces";
     src: url("/fonts/Fraunces-SemiBold.ttf") format("truetype");
@@ -47,7 +48,7 @@
 }
 
 
-
+/* création de variables pour les couleurs, les polices et l'épaisseur du texte */
 :root{
     --fond-principal: #f2e6ce;
     --fond-carte: #fff5e5;
@@ -74,12 +75,14 @@
 }
 
 
-body{
+html, body{
     color: var(--couleur-texte);
     background-color: var(--fond-principal);
     margin: 0;
     padding: 0;
     font-family: var(--police-corps);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 hr{
