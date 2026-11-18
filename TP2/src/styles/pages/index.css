@@ -285,37 +285,40 @@ main {
 #encadre {
     display: flex;
     width: 75%;
-    flex-direction: row;
-    align-items: flex-start;
     background-color: var(--fond-carte);
     border-radius: 2rem;
     border: 1rem solid var(--couleur-texte);
+    overflow: hidden;
 }
 
+#encadre > img {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+#noteContenu {
+    width: 60%;
+    padding: 3rem;
+    box-sizing: border-box;
+}
 #encadre p {
     font-family: var(--police-manuscrit);
-}
-
-#encadre img {
-    border-radius: 1rem 0 0 1rem;
 }
 
 #noteEntete {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 1rem;
 }
 
 #encadre h1 {
     font-family: var(--police-manuscrit);
-    padding: 0 1rem;
     font-size: 2.5rem;
 }
 
 #note {
     font-size: 1.5rem;
-    padding: 0 1rem;
 }
 
 #ancre {
@@ -341,13 +344,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 1rem;
 }
 
 #signature {
     font-size: 1.75rem;
     font-weight: var(--bold);
-    padding: 0 1rem;
 }
 
 
@@ -454,22 +455,23 @@ main {
         padding: 0;
     }
 
+@media (max-width: 900px) {
     #encadre {
         flex-direction: column;
         width: 85%;
     }
 
-    #encadre>img {
+    #encadre > img {
         width: 100%;
-        max-height: 25rem;
+        height: 25rem;
         object-fit: cover;
-        border-radius: 1rem 1rem 0 0;
     }
 
     #noteContenu {
         width: 100%;
         padding: 1rem;
     }
+}
 }
 
 @media (max-width: 600px) {

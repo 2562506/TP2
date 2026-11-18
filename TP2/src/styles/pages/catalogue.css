@@ -8,6 +8,7 @@
     text-align: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 0 5rem;
 }
 
 /* Barre de recherche */
@@ -41,6 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 /* Organisation des fiches de potions */
@@ -73,7 +75,7 @@
 
 /* Boîte qui contient la recherche et les filtres */
 .boite-recherche {
-    width: 90%;
+    width: 100%;
     padding: 1rem;
     background-color: #c4d1ad;
     border-radius: 1rem;

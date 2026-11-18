@@ -1,3 +1,4 @@
+/* effet de hover pour les boutons */
 button{
     transition: all ease-out 0.1s;
 }
