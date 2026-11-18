@@ -1,5 +1,8 @@
 import './style.css'
 
+const btns = document.querySelectorAll(".filtres")
+console.log(btns)
+
 // Obtient le texte dans la barre de recherche
 let rechercheTexte = document.getElementById("searchInput");
 rechercheTexte.addEventListener("input", filterByName);
@@ -19,4 +22,9 @@ function filterByName(event) {
       cartePotion.style.display = '';
     }
   });
+}
+
+
+btns.forEach(function(btn)) {
+  btn.addEventListe
 }
